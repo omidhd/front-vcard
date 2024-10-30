@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #333333;
+}
+li, p, sub {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 4.25rem;
+}
+h2 {
+    font-size: 1.75rem;
+    line-height: 2.0625rem;
+}
+h5{
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    letter-spacing: .10625rem;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+strong {
+    font-weight: 600;
+    color: darkslategray;
+}
+.pro-blue-head{
+    background-color: #012169;
+    height: 375px;
+}
+.pro-box1{
+    width: 95%;
+    margin: -300px auto;
+}
+.pbox1-img{
+    width: 365px;
+    max-width: 100%;
+}
+.text-primary{
+    color: #012169 !important;
+}
+.bg-primary{
+    background-color: #012169 !important;
+}
+.font-w{
+    font-weight: 600 !important;
+}
+.hover-under:hover{
+    text-decoration: underline !important;
+}
+.pletter-space{
+    letter-spacing: .10625rem;
+}
+.practices > a{
+    line-height: 33px;
+}
+.pro-sidebar{
+    position: sticky;
+    top: 30px;
+    width: 30%;
+}
+.pro-sidebar div{
+    max-width: 250px;
+    margin: auto;
+}
+.pro-content{
+    width: 57%;
+    padding: 0 20px;
+    margin-left: 30%;
+    margin-top: -540px;
+}
+.pro-nav-sidebar a{
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    line-height: 2.625rem;
+    text-align: left;
+}
+.pro-nav-sidebar a:hover{
+    font-weight: 600;
+}
+.pro-nav-sidebar a:active{
+    font-weight: 600;
+    margin-right: -0.3125rem;
+    color: #012169;
+}
+.credentials-stitle{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.125rem;
+    margin-top: 1.125rem;
+    color: #1290ce;
+    letter-spacing: .10625rem;
+}
+.credentials-content > ul > li{
+    font-size: 1rem;
+    line-height: 32px;
+}
+.credentials-content > ul{
+    margin-left: -10px;
+}
+.publicat-title{
+    color: #333;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+}
+.em-pub{
+    color: #656565;
+    font-size: .75rem;
+    line-height: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: .09188rem;
+    font-weight: 500;
+}
+.column-pub{
+    border-top: solid 1px lightgray;
+    padding: 20px;
+    width : 48% ;
+    background-color : #F2F2F2;
+    border : unset;
+}
+.row-pub{
+    display: flex;
+    gap: 4% !important;
+}
+#Overview,
+#Credentials,
+#Multimedia,
+#Publications{
+    scroll-margin-top: 30px;
+}
+
+@media screen and (max-width:1080px){
+
+}
+
+@media screen and (max-width:768px){
+    .pbox1-img{
+        width: 100%;
+    }
+    .pro-sidebar, .pro-content{
+        width: 100%;
+        position: relative;
+        top: unset;
+    }
+    .pro-sidebar div{
+        max-width: 100%;
+    }
+    .pro-content{
+        margin: 25px 0;
+        padding: 10px;
+    }
+}
